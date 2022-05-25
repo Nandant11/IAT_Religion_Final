@@ -1,6 +1,5 @@
-define(['pipAPI','https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/iat7.js'], function(APIConstructor, iatExtension){
-    let API = new APIConstructor();
-    let global = API.getGlobal();
+define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualtrics/quiat9.js'], function(APIConstructor, iatExtension){
+    var API = new APIConstructor();
 
     return iatExtension({
         category1 : {
