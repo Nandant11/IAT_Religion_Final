@@ -21,9 +21,9 @@ var posWords = API.shuffle([
 	return iatExtension({
 
 		category1 : {
-			name : 'Arab Muslims', //Will appear in the data.
+			name : 'Muslims', //Will appear in the data.
 			title : {
-				media : {word : 'Arab Muslims'}, //Name of the category presented in the task.
+				media : {word : 'Muslims'}, //Name of the category presented in the task.
 				css : {color:'#31940F','font-size':'1.8em'}, //Style of the category title.
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
@@ -43,23 +43,23 @@ var posWords = API.shuffle([
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
 		},	
 		category2 :	{
-			name : 'Other People', //Will appear in the data.
+			name : 'Hindus', //Will appear in the data.
 			title : {
 				media : {word : 'Other People'}, //Name of the category presented in the task.
 				css : {color:'#31940F','font-size':'1.8em'}, //Style of the category title.
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-    		        {word: 'Ernesto'},
-                {word: 'Matthais'},
-                {word: 'Maarten'},
-				        {word: 'Philippe'},
-            	  {word: 'Guillame'},
-            	  {word: 'Benoit'},
-            	  {word: 'Takuya'},
-                {word: 'Kazuki'},
-                {word: 'Chaiyo'},
-				        {word: 'Marcelo'}
+    		        {word: 'Desai'},
+                {word: 'Patel'},
+                {word: 'Thakkar'},
+				        {word: 'Bhavsar'},
+            	  {word: 'Joshi'},
+            	  {word: 'Bhavsar'},
+            	  {word: 'Rathod'},
+                {word: 'Adani'},
+                {word: 'Modi'},
+				        {word: 'Saxena'}
 			], 
 			//Stimulus css
 			stimulusCss : {color:'#31940F','font-size':'1.8em'}
