@@ -45,7 +45,7 @@ var posWords = API.shuffle([
 		category2 :	{
 			name : 'Hindus', //Will appear in the data.
 			title : {
-				media : {word : 'Other People'}, //Name of the category presented in the task.
+				media : {word : 'Hindus'}, //Name of the category presented in the task.
 				css : {color:'#31940F','font-size':'1.8em'}, //Style of the category title.
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
