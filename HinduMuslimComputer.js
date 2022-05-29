@@ -40,7 +40,7 @@ var posWords = API.shuffle([
 				        {word: 'Ashraf'}  
 			], 
 			//Stimulus css (style)
-			stimulusCss : {color:'#31940F','font-size':'1.8em'}
+			stimulusCss : {color:'#31940F','font-size':'2.3em'}
 		},	
 		category2 :	{
 			name : 'Hindus', //Will appear in the data.
@@ -62,7 +62,7 @@ var posWords = API.shuffle([
 				        {word: 'Saxena'}
 			], 
 			//Stimulus css
-			stimulusCss : {color:'#31940F','font-size':'1.8em'}
+			stimulusCss : {color:'#31940F','font-size':'2.3em'}
 		},
 		attribute1 :
 		{
