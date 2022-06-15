@@ -28,13 +28,12 @@ var posWords = API.shuffle([
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-    		        {word: 'Hussai'},
-                {word: 'Zunaid'},
-				        {word: 'Khan'},
-            	  {word: 'Akbar'},
-            	  {word: 'Pathan'},
-            	  {word: 'Salim'},
-				        {word: 'Ashraf'}  
+    		       {word: 'Sheikh'},
+                {word: 'Pathan'},
+				        {word: 'Akthar'},
+            	  {word: 'Khan'},
+            	  {word: 'Sayied'},
+            	  {word: 'Qureshi'} 
 			], 
 			//Stimulus css (style)
 			stimulusCss : {color:'#31940F','font-size':'2.3em'}
@@ -52,7 +51,6 @@ var posWords = API.shuffle([
             	  {word: 'Joshi'},
             	  {word: 'Rathod'},
                 {word: 'Thakor'},
-                {word: 'Sharma'},
 				        {word: 'Mehta'}
 			], 
 			//Stimulus css
