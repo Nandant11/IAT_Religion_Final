@@ -82,3 +82,4 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/Nandant11/IAT_Religion_Final@main
 			image : 'https://baranan.github.io/minno-tasks/images/'
 		} 
 	});
+	});
