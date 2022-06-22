@@ -2,20 +2,19 @@ define(['pipAPI', 'https://cdn.jsdelivr.net/gh/Nandant11/IAT_Religion_Final@main
     var API = new APIConstructor();
 var posWords = API.shuffle([
             'Love', 'Cheer', 'Friend', 'Pleasure', 
-            'Adore', 'Cheerful', 'Friendship', 'Joyful', 
-            'Smiling','Cherish', 'Excellent', 'Glad', 
-            'Joyous', 'Spectacular', 'Appealing', 'Delight', 
-            'Excitement', 'Laughing', 'Attractive','Delightful', 
-            'Fabulous', 'Glorious', 'Pleasing', 'Beautiful', 
-            'Fantastic', 'Happy', 'Lovely', 'Terrific', 
-            'Celebrate', 'Enjoy', 'Magnificent', 'Triumph']);
+            'Cheerful', 'Friendship', 'Joyful', 
+            'Smiling','Excellent', 'Glad', 
+            'Joy', 'Delight','Excitement', 'Laughing', 'Attractive', 
+            'Fabulous', 'Glorious', 'Beautiful', 
+            'Fantastic', 'Happy', 'Lovely',
+            'Celebrate', 'Enjoy', 'Magnificent']);
   var negWords = API.shuffle([
             'Abuse', 'Poison', 'Sadness', 
             'Pain', 'Failure', 'Violence', 
             'Angry', 'Horrible', 'Negative', 
             'Ugly', 'Dirty', 'Evil', 'Anger', 'Disaster', 
 	    'Horrific', 'Fear', 'Hate', 'Guilt',
-            'Humiliate', 'Selfish', 'Hurt', 'Sick']);
+            'Selfish', 'Hurt', 'Sick']);
 	
 	return iatExtension({
 
