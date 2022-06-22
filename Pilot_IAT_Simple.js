@@ -1,4 +1,4 @@
-define(['pipAPI', 'https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/qualtrics/quiat9.js'], function(APIConstructor, iatExtension){
+define(['pipAPI', 'https://cdn.jsdelivr.net/gh/Nandant11/IAT_Religion_Final@main/parameters.js'], function(APIConstructor, iatExtension){
     var API = new APIConstructor();
 var posWords = API.shuffle([
             'Love', 'Cheer', 'Friend', 'Pleasure', 
@@ -10,59 +10,50 @@ var posWords = API.shuffle([
             'Fantastic', 'Happy', 'Lovely', 'Terrific', 
             'Celebrate', 'Enjoy', 'Magnificent', 'Triumph']);
   var negWords = API.shuffle([
-            'Abuse', 'Grief', 'Poison', 'Sadness', 
-            'Pain', 'Despise', 'Failure', 'Nasty', 
-            'Angry', 'Detest', 'Horrible', 'Negative', 
-            'Ugly', 'Dirty', 'Gross', 'Evil', 
-            'Rotten','Annoy', 'Disaster', 'Horrific',  
-            'Scorn', 'Awful', 'Disgust', 'Hate', 
-            'Humiliate', 'Selfish', 'Tragic', 'Bothersome', 
-            'Hatred', 'Hurtful', 'Sickening', 'Yucky']);
+            'Abuse', 'Poison', 'Sadness', 
+            'Pain', 'Failure', 'Violence', 
+            'Angry', 'Horrible', 'Negative', 
+            'Ugly', 'Dirty', 'Evil', 'Anger', 'Disaster', 
+	    'Horrific', 'Fear', 'Hate', 'Guilt',
+            'Humiliate', 'Selfish', 'Hurt', 'Sick']);
+	
 	return iatExtension({
 
 		category1 : {
-			name : 'Arab Muslims', //Will appear in the data.
+			name : 'Muslims', //Will appear in the data.
 			title : {
-				media : {word : 'Arab Muslims'}, //Name of the category presented in the task.
+				media : {word : 'Muslims'}, //Name of the category presented in the task.
 				css : {color:'#31940F','font-size':'1.8em'}, //Style of the category title.
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-    		        {word: 'Hakim'},
-                {word: 'Sharif'},
-                {word: 'Yousef'},
-				        {word: 'Wahib'},
-            	  {word: 'Akbar'},
-            	  {word: 'Muhsin'},
-            	  {word: 'Salim'},
-                {word: 'Karim'},
-                {word: 'Habib'},
-				        {word: 'Ashraf'}  
+    		            {word: 'Sheikh'},
+                {word: 'Pathan'},
+				        {word: 'Akthar'},
+            	  {word: 'Khan'},
+            	  {word: 'Sayied'},
+            	  {word: 'Qureshi'} 
 			], 
 			//Stimulus css (style)
-			stimulusCss : {color:'#31940F','font-size':'1.8em'}
+			stimulusCss : {color:'#31940F','font-size':'2.3em'}
 		},	
 		category2 :	{
-			name : 'Other People', //Will appear in the data.
+			name : 'Hindus', //Will appear in the data.
 			title : {
-				media : {word : 'Other People'}, //Name of the category presented in the task.
+				media : {word : 'Hindus'}, //Name of the category presented in the task.
 				css : {color:'#31940F','font-size':'1.8em'}, //Style of the category title.
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-    		        {word: 'Ernesto'},
-                {word: 'Matthais'},
-                {word: 'Maarten'},
-				        {word: 'Philippe'},
-            	  {word: 'Guillame'},
-            	  {word: 'Benoit'},
-            	  {word: 'Takuya'},
-                {word: 'Kazuki'},
-                {word: 'Chaiyo'},
-				        {word: 'Marcelo'}
+    		        {word: 'Desai'},
+                {word: 'Patel'},	       
+            	  {word: 'Joshi'},
+            	  {word: 'Rathod'},
+                {word: 'Thakor'},
+				        {word: 'Mehta'}
 			], 
 			//Stimulus css
-			stimulusCss : {color:'#31940F','font-size':'1.8em'}
+			stimulusCss : {color:'#31940F','font-size':'2.3em'}
 		},
 		attribute1 :
 		{
