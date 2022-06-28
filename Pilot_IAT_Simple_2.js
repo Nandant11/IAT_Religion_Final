@@ -47,7 +47,7 @@ var posWords = API.shuffle([
     		        {word: 'Desai'},
                 {word: 'Prajapati'},	       
             	  {word: 'Joshi'},
-            	  {word: 'Chauhan'},
+            	  {word: 'Raval'},
                 {word: 'Thakor'},
 				        {word: 'Mehta'}
 			], 
