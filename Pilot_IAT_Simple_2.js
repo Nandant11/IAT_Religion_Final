@@ -28,7 +28,7 @@ var posWords = API.shuffle([
 			stimulusMedia : [ //Stimuli content as PIP's media objects
     		            {word: 'Sheikh'},
                 {word: 'Pathan'},
-				        {word: 'Akthar'},
+				        {word: 'Ansari'},
             	  {word: 'Khan'},
             	  {word: 'Sayied'},
             	  {word: 'Qureshi'} 
@@ -45,9 +45,9 @@ var posWords = API.shuffle([
 			}, 
 			stimulusMedia : [ //Stimuli content as PIP's media objects
     		        {word: 'Desai'},
-                {word: 'Patel'},	       
+                {word: 'Prajapati'},	       
             	  {word: 'Joshi'},
-            	  {word: 'Rathod'},
+            	  {word: 'Chauhan'},
                 {word: 'Thakor'},
 				        {word: 'Mehta'}
 			], 
