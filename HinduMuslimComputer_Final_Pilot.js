@@ -1,23 +1,21 @@
-define(['pipAPI', 'https://cdn.jsdelivr.net/gh/Nandant11/IAT_Religion_Final@main/parameter_computer.js'], function(APIConstructor, iatExtension){
+define(['pipAPI', 'https://cdn.jsdelivr.net/gh/Nandant11/IAT_Religion_Final@main/parameters.js'], function(APIConstructor, iatExtension){
     var API = new APIConstructor();
 var posWords = API.shuffle([
             'Love', 'Cheer', 'Friend', 'Pleasure', 
-            'Adore', 'Cheerful', 'Friendship', 'Joyful', 
-            'Smiling','Cherish', 'Excellent', 'Glad', 
-            'Joyous', 'Spectacular', 'Appealing', 'Delight', 
-            'Excitement', 'Laughing', 'Attractive','Delightful', 
-            'Fabulous', 'Glorious', 'Pleasing', 'Beautiful', 
-            'Fantastic', 'Happy', 'Lovely', 'Terrific', 
-            'Celebrate', 'Enjoy', 'Magnificent', 'Triumph']);
+            'Cheerful', 'Friendship', 'Joyful', 
+            'Smiling','Excellent', 'Glad', 
+            'Joy', 'Delight','Excitement', 'Laughing', 'Attractive', 
+            'Fabulous', 'Glorious', 'Beautiful', 
+            'Fantastic', 'Happy', 'Lovely',
+            'Celebrate', 'Enjoy', 'Magnificent']);
   var negWords = API.shuffle([
-            'Abuse', 'Grief', 'Poison', 'Sadness', 
-            'Pain', 'Despise', 'Failure', 'Nasty', 
-            'Angry', 'Detest', 'Horrible', 'Negative', 
-            'Ugly', 'Dirty', 'Gross', 'Evil', 
-            'Rotten','Annoy', 'Disaster', 'Horrific',  
-            'Scorn', 'Awful', 'Disgust', 'Hate', 
-            'Humiliate', 'Selfish', 'Tragic', 'Bothersome', 
-            'Hatred', 'Hurtful', 'Sickening', 'Yucky']);
+            'Abuse', 'Poison', 'Sadness', 
+            'Pain', 'Failure', 'Violence', 
+            'Angry', 'Horrible', 'Negative', 
+            'Ugly', 'Dirty', 'Evil', 'Anger', 'Disaster', 
+	    'Horrific', 'Fear', 'Hate', 'Guilt',
+            'Selfish', 'Hurt', 'Sick']);
+	
 	return iatExtension({
 
 		category1 : {
@@ -28,9 +26,9 @@ var posWords = API.shuffle([
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
 			stimulusMedia : [ //Stimuli content as PIP's media objects
-    		       {word: 'Sheikh'},
+    		            {word: 'Sheikh'},
                 {word: 'Pathan'},
-				        {word: 'Akthar'},
+				        {word: 'Ansari'},
             	  {word: 'Khan'},
             	  {word: 'Sayied'},
             	  {word: 'Qureshi'} 
@@ -47,9 +45,9 @@ var posWords = API.shuffle([
 			}, 
 			stimulusMedia : [ //Stimuli content as PIP's media objects
     		        {word: 'Desai'},
-                {word: 'Patel'},	       
+                {word: 'Prajapati'},	       
             	  {word: 'Joshi'},
-            	  {word: 'Rathod'},
+            	  {word: 'Raval'},
                 {word: 'Thakor'},
 				        {word: 'Mehta'}
 			], 
