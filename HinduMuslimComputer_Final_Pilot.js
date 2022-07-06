@@ -1,4 +1,4 @@
-define(['pipAPI', 'https://cdn.jsdelivr.net/gh/Nandant11/IAT_Religion_Final@main/parameters.js'], function(APIConstructor, iatExtension){
+define(['pipAPI', 'https://cdn.jsdelivr.net/gh/Nandant11/IAT_Religion_Final@main/parameters_computer.js'], function(APIConstructor, iatExtension){
     var API = new APIConstructor();
 var posWords = API.shuffle([
             'Love', 'Cheer', 'Friend', 'Pleasure', 
